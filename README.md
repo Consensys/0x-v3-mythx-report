@@ -28,7 +28,7 @@ The CI setup and custom modules developed in this engagement can be re-used to c
 
 MythX Pro detected a total of **37** potential issues. Most findings refered to simple best practice violations such as shadowing of variable names, ignoring failures of external calls. However, a few potentially problematic issues such as integer overflows we discovered as well.
 
-In addition the generic scan, we [checked correctness of the code](#verification-of-custom-properties) with respect to selected properties. The 0x system passed  the checks successfully.
+In addition the generic scan, we [checked correctness of the code](#verification-of-custom-properties) with respect to selected properties. While the 0x system passed most functional checks successfully, the proprietary fixed point signed integer library was shown to be [affected by integer arithmetic issues](#violations-found).
 
 ### Recommendations
 
