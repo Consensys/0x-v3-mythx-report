@@ -50,32 +50,32 @@ The following table lists the bug classes that were tested for. A checkmark in t
 
 | SWC ID  | Bug class                                | Pass | Status |
 |---------|------------------------------------------|------|--------|
-| [SWC-100](https://swcregistry.io/docs/SWC-100) | Function Default Visibility              |  ✓   |  N/A  |
-| [SWC-101](https://swcregistry.io/docs/SWC-101) | Integer Overflow and Underflow           |  **X**  | T.b.d. | 
-| [SWC-102](https://swcregistry.io/docs/SWC-102) | Outdated Compiler Version                |  ✓   |  N/A  |
-| [SWC-103](https://swcregistry.io/docs/SWC-103) | Floating Pragma                          |  ✓   |  N/A  |
-| [SWC-104](https://swcregistry.io/docs/SWC-104) | Unchecked Call Return Value              |  ✓   |  N/A  |
-| [SWC-105](https://swcregistry.io/docs/SWC-105) | Unprotected Ether Withdrawal             |  **X**   | Accepted (not exploitable) |
-| [SWC-106](https://swcregistry.io/docs/SWC-106) | Unprotected SELFDESTRUCT Instruction     |  ✓   |  N/A  |
-| [SWC-107](https://swcregistry.io/docs/SWC-107) | Reentrancy                               |  ✓   |  N/A  |
-| [SWC-108](https://swcregistry.io/docs/SWC-108) | State Variable Default Visibility        |  ✓   |  N/A  |
-| [SWC-109](https://swcregistry.io/docs/SWC-109) | Uninitialized Storage Pointer            |  ✓   |  N/A  |
-| [SWC-110](https://swcregistry.io/docs/SWC-110) | Assert Violation                         |  **X**  | Accepted (not exploitable) |
-| [SWC-111](https://swcregistry.io/docs/SWC-111) | Use of Deprecated Solidity Functions     |  ✓   |  N/A  |
-| [SWC-112](https://swcregistry.io/docs/SWC-112) | Delegatecall to Untrusted Callee         |  ✓   |  N/A  |
-| [SWC-113](https://swcregistry.io/docs/SWC-113) | DoS with Failed Call                     |  ✓   |  N/A  |
-| [SWC-114](https://swcregistry.io/docs/SWC-114) | Transaction Order Dependence             |  ✓   |  N/A  |
-| [SWC-115](https://swcregistry.io/docs/SWC-115) | Authorization through tx.origin          |  **X**  | T.b.d. | 
-| [SWC-116](https://swcregistry.io/docs/SWC-116) | Timestamp Dependence                     |  **X**  | T.b.d. | 
-| [SWC-118](https://swcregistry.io/docs/SWC-118) | Incorrect Constructor Name               |  ✓   | N/A |
-| [SWC-119](https://swcregistry.io/docs/SWC-119)| Shadowing State Variables                |  **X**  | T.b.d. | 
-| [SWC-120](https://swcregistry.io/docs/SWC-120) | Weak Sources of Randomness               |  ✓   | N/A  |
-| [SWC-123](https://swcregistry.io/docs/SWC-123) | Requirement Violation                    |  ✓   | N/A  |
-| [SWC-124](https://swcregistry.io/docs/SWC-124) | Write to Arbitrary Storage Location      |  ✓   | N/A  |
-| [SWC-127](https://swcregistry.io/docs/SWC-127) | Arbitrary Jump                           |  ✓   | N/A  |
-| [SWC-128](https://swcregistry.io/docs/SWC-128) | Gas Exhaustion                           |  ✓   | N/A  |
-| [SWC-129](https://swcregistry.io/docs/SWC-129) | Typographical Error                      |  ✓   | N/A  |
-| [SWC-130](https://swcregistry.io/docs/SWC-130) | Right-To-Left-Override control character |  ✓   | N/A  |
+| [SWC-100](https://swcregistry.io/docs/SWC-100) | Function Default Visibility              |  &#x2714;  |  N/A  |
+| [SWC-101](https://swcregistry.io/docs/SWC-101) | Integer Overflow and Underflow           |  &#x2716;| T.b.d. | 
+| [SWC-102](https://swcregistry.io/docs/SWC-102) | Outdated Compiler Version                |  &#x2714;  |  N/A  |
+| [SWC-103](https://swcregistry.io/docs/SWC-103) | Floating Pragma                          |  &#x2714;  |  N/A  |
+| [SWC-104](https://swcregistry.io/docs/SWC-104) | Unchecked Call Return Value              |  &#x2714;  |  N/A  |
+| [SWC-105](https://swcregistry.io/docs/SWC-105) | Unprotected Ether Withdrawal             |  &#x2716; | Accepted (not exploitable) |
+| [SWC-106](https://swcregistry.io/docs/SWC-106) | Unprotected SELFDESTRUCT Instruction     |  &#x2714; |  N/A  |
+| [SWC-107](https://swcregistry.io/docs/SWC-107) | Reentrancy                               |  &#x2714; |  N/A  |
+| [SWC-108](https://swcregistry.io/docs/SWC-108) | State Variable Default Visibility        |  &#x2714; |  N/A  |
+| [SWC-109](https://swcregistry.io/docs/SWC-109) | Uninitialized Storage Pointer            |  &#x2714; |  N/A  |
+| [SWC-110](https://swcregistry.io/docs/SWC-110) | Assert Violation                         |  &#x2716;| Accepted (not exploitable) |
+| [SWC-111](https://swcregistry.io/docs/SWC-111) | Use of Deprecated Solidity Functions     | &#x2714; |  N/A  |
+| [SWC-112](https://swcregistry.io/docs/SWC-112) | Delegatecall to Untrusted Callee         | &#x2714;  |  N/A  |
+| [SWC-113](https://swcregistry.io/docs/SWC-113) | DoS with Failed Call                     | &#x2714; |  N/A  |
+| [SWC-114](https://swcregistry.io/docs/SWC-114) | Transaction Order Dependence             | &#x2714; |  N/A  |
+| [SWC-115](https://swcregistry.io/docs/SWC-115) | Authorization through tx.origin          | &#x2716; | T.b.d. | 
+| [SWC-116](https://swcregistry.io/docs/SWC-116) | Timestamp Dependence                     | &#x2716; | T.b.d. | 
+| [SWC-118](https://swcregistry.io/docs/SWC-118) | Incorrect Constructor Name               | &#x2714;  | N/A |
+| [SWC-119](https://swcregistry.io/docs/SWC-119)| Shadowing State Variables                 | &#x2716;  | T.b.d. | 
+| [SWC-120](https://swcregistry.io/docs/SWC-120) | Weak Sources of Randomness               | &#x2714;  | N/A  |
+| [SWC-123](https://swcregistry.io/docs/SWC-123) | Requirement Violation                    | &#x2714;  | N/A  |
+| [SWC-124](https://swcregistry.io/docs/SWC-124) | Write to Arbitrary Storage Location      | &#x2714;  | N/A  |
+| [SWC-127](https://swcregistry.io/docs/SWC-127) | Arbitrary Jump                           | &#x2714;  | N/A  |
+| [SWC-128](https://swcregistry.io/docs/SWC-128) | Gas Exhaustion                           | &#x2714;  | N/A  |
+| [SWC-129](https://swcregistry.io/docs/SWC-129) | Typographical Error                      | &#x2714;  | N/A  |
+| [SWC-130](https://swcregistry.io/docs/SWC-130) | Right-To-Left-Override control character | &#x2714;  | N/A  |
 
 ### AssetProxy
 
@@ -257,7 +257,8 @@ We created three custom checks for the following properties based on the specifi
 | Exchange Payment | Verify that the contract account balance is zero ether at the end of a transaction. | &#x2714; |
 | Asset Transfers triggered by unauthorized sender | Verify that successful asset transfers always originate from an authorized sender. | &#x2714; |
 | Filling Closed Orders | Verify that only open orders can be filled.| &#x2714; |
-| Fixed-point integer math | Addition and multiplication don't overflow | X |
+| Fixed-point Integer Arithmetics | Arithmetic operations on fixed-point signed integers don't overflow. | &#x2716; |
+| Asset Proxy | Actors cannot execute proxy calls unless they are explicitly listed in the `authorities` array by the owner. | &#x2714; |
 
 ### Violations found
 
@@ -312,4 +313,3 @@ In addition to the checks listed above, we created custom checks for a more spec
 discovered by the audit team. It checks complex state invariants for the `MixinStorage`
 contract. We will be able to automatically check the property once the staking contracts
 are part of the migrated contracts.
-
