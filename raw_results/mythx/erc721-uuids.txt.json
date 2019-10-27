@@ -1,0 +1,1294 @@
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.5\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 731745290,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Receiver.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 266,
+      "coveredPaths": 8,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Receiver.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.5\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 811466449,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "580:23:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 39
+            },
+            {
+              "column": 21,
+              "line": 39
+            }
+          ]
+        ],
+        "description": {
+          "head": "Local variable shadows a state variable.",
+          "tail": "The local variable \"owner\" in contract \"MintableERC721Token\" shadows the state variable with the same name \"owner\" in contract \"Ownable\"."
+        },
+        "extra": {
+          "discoveryTime": 911790424,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "1115:13:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-119",
+        "swcTitle": "Shadowing State Variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 67
+            },
+            {
+              "column": 21,
+              "line": 67
+            }
+          ]
+        ],
+        "description": {
+          "head": "Local variable shadows a state variable.",
+          "tail": "The local variable \"owner\" in contract \"MintableERC721Token\" shadows the state variable with the same name \"owner\" in contract \"Ownable\"."
+        },
+        "extra": {
+          "discoveryTime": 911846425,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "1851:13:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-119",
+        "swcTitle": "Shadowing State Variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 136
+            },
+            {
+              "column": 21,
+              "line": 136
+            }
+          ]
+        ],
+        "description": {
+          "head": "Local variable shadows a state variable.",
+          "tail": "The local variable \"owner\" in contract \"ERC721Token\" shadows the state variable with the same name \"owner\" in contract \"Ownable\"."
+        },
+        "extra": {
+          "discoveryTime": 911884025,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "4507:13:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-119",
+        "swcTitle": "Shadowing State Variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 206
+            },
+            {
+              "column": 21,
+              "line": 206
+            }
+          ]
+        ],
+        "description": {
+          "head": "Local variable shadows a state variable.",
+          "tail": "The local variable \"owner\" in contract \"ERC721Token\" shadows the state variable with the same name \"owner\" in contract \"Ownable\"."
+        },
+        "extra": {
+          "discoveryTime": 911904725,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "6892:13:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-119",
+        "swcTitle": "Shadowing State Variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 246
+            },
+            {
+              "column": 21,
+              "line": 246
+            }
+          ]
+        ],
+        "description": {
+          "head": "Local variable shadows a state variable.",
+          "tail": "The local variable \"owner\" in contract \"ERC721Token\" shadows the state variable with the same name \"owner\" in contract \"Ownable\"."
+        },
+        "extra": {
+          "discoveryTime": 911920825,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "8009:13:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-119",
+        "swcTitle": "Shadowing State Variables"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 1945,
+      "coveredPaths": 63,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/Ownable.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol",
+      "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 7
+            },
+            {
+              "column": 18,
+              "line": 8
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ONLY_OWNER_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ONLY_OWNER_ERROR_SELECTOR\" is created within the contract \"LibOwnableRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 672717279,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "122:71:5",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 11
+            },
+            {
+              "column": 21,
+              "line": 12
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"TRANSFER_OWNER_TO_ZERO_ERROR_BYTES\"",
+          "tail": "The state variable \"TRANSFER_OWNER_TO_ZERO_ERROR_BYTES\" is created within the contract \"LibOwnableRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 672817179,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "255:82:5",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 657272438,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "0:23:5",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/Ownable.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol",
+      "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1068345138,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "580:23:8",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 239,
+      "coveredPaths": 8,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/Ownable.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol",
+      "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 436363942,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/Ownable.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol",
+              "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+            ],
+            "sourceMap": "580:23:10",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/DummyERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibOwnableRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/Ownable.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol",
+      "@0x/contracts-utils/contracts/src/interfaces/IOwnable.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1333963920,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 745,
+      "coveredPaths": 30,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 25
+            },
+            {
+              "column": 18,
+              "line": 26
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"STANDARD_ERROR_SELECTOR\"",
+          "tail": "The state variable \"STANDARD_ERROR_SELECTOR\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 752077624,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "677:69:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 21,
+              "line": 50
+            },
+            {
+              "column": 43,
+              "line": 50
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"errorData\"",
+          "tail": "The local variable \"errorData\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 753066729,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "1528:22:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 718541667,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "580:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 7
+            },
+            {
+              "column": 18,
+              "line": 8
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"UINT256_BINOP_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_BINOP_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 694922416,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "132:74:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 11
+            },
+            {
+              "column": 18,
+              "line": 12
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 695120917,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "277:77:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 680854769,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "0:23:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 693953712,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "0:23:5",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 6,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 245081273,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 409055291,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.5\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 722985528,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/InvalidERC721Receiver.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 266,
+      "coveredPaths": 8,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/test/InvalidERC721Receiver.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 990751156,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/SafeMath.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 745,
+      "coveredPaths": 30,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/ERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/MintableERC721Token.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Receiver.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/erc721/contracts/src/interfaces/IERC721Token.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/SafeMath.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]

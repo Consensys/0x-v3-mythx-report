@@ -1,0 +1,1564 @@
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 291
+            },
+            {
+              "column": 27,
+              "line": 291
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"destination\"",
+          "tail": "The local variable \"destination\" is created within the contract \"AssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2576012949,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8448:19:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 292
+            },
+            {
+              "column": 21,
+              "line": 292
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"value\"",
+          "tail": "The local variable \"value\" is created within the contract \"AssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2576038649,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8477:13:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 293
+            },
+            {
+              "column": 26,
+              "line": 293
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"dataLength\"",
+          "tail": "The local variable \"dataLength\" is created within the contract \"AssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2576046249,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8500:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 294
+            },
+            {
+              "column": 25,
+              "line": 294
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"data\"",
+          "tail": "The local variable \"data\" is created within the contract \"AssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2576056749,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8528:17:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 2377543897,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 0,
+      "coveredPaths": 0,
+      "logs": [
+        [],
+        [
+          {
+            "level": "info",
+            "msg": "skipped automated fuzz testing due to incompatible bytecode input"
+          }
+        ]
+      ],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 628780445,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 273,
+      "coveredPaths": 3,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 24,
+              "line": 34
+            },
+            {
+              "column": 42,
+              "line": 34
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"input\"",
+          "tail": "The local variable \"input\" is created within the contract \"LibBytes\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1175927908,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1008:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 28,
+              "line": 48
+            },
+            {
+              "column": 46,
+              "line": 48
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"input\"",
+          "tail": "The local variable \"input\" is created within the contract \"LibBytes\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1175962308,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1427:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 25,
+              "line": 504
+            },
+            {
+              "column": 39,
+              "line": 504
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"b\"",
+          "tail": "The local variable \"b\" is created within the contract \"LibBytes\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1175975008,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "18081:14:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 41,
+              "line": 504
+            },
+            {
+              "column": 55,
+              "line": 504
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"length\"",
+          "tail": "The local variable \"length\" is created within the contract \"LibBytes\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1175980408,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "18097:14:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1147486107,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 36
+            },
+            {
+              "column": 18,
+              "line": 37
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"INVALID_BYTE_OPERATION_ERROR_SELECTOR\"",
+          "tail": "The state variable \"INVALID_BYTE_OPERATION_ERROR_SELECTOR\" is created within the contract \"LibBytesRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 733724998,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1159:83:2",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 674856257,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:2",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 25
+            },
+            {
+              "column": 18,
+              "line": 26
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"STANDARD_ERROR_SELECTOR\"",
+          "tail": "The state variable \"STANDARD_ERROR_SELECTOR\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 704121403,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "677:69:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 21,
+              "line": 50
+            },
+            {
+              "column": 43,
+              "line": 50
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"errorData\"",
+          "tail": "The local variable \"errorData\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 704840509,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1528:22:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 694896327,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/ContractCallReceiver.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 291
+            },
+            {
+              "column": 27,
+              "line": 291
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"destination\"",
+          "tail": "The local variable \"destination\" is created within the contract \"MultiSigWallet\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1978514444,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+            ],
+            "sourceMap": "8448:19:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 292
+            },
+            {
+              "column": 21,
+              "line": 292
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"value\"",
+          "tail": "The local variable \"value\" is created within the contract \"MultiSigWallet\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1978543244,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+            ],
+            "sourceMap": "8477:13:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 293
+            },
+            {
+              "column": 26,
+              "line": 293
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"dataLength\"",
+          "tail": "The local variable \"dataLength\" is created within the contract \"MultiSigWallet\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1978551044,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+            ],
+            "sourceMap": "8500:18:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 294
+            },
+            {
+              "column": 25,
+              "line": 294
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"data\"",
+          "tail": "The local variable \"data\" is created within the contract \"MultiSigWallet\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1978562444,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+            ],
+            "sourceMap": "8528:17:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 2
+            },
+            {
+              "column": 23,
+              "line": 2
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1661927573,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+            ],
+            "sourceMap": "19:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 0,
+      "coveredPaths": 0,
+      "logs": [
+        [],
+        [
+          {
+            "level": "info",
+            "msg": "skipped automated fuzz testing due to incompatible bytecode input"
+          }
+        ]
+      ],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 291
+            },
+            {
+              "column": 27,
+              "line": 291
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"destination\"",
+          "tail": "The local variable \"destination\" is created within the contract \"MultiSigWalletWithTimeLock\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1895968937,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8448:19:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 292
+            },
+            {
+              "column": 21,
+              "line": 292
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"value\"",
+          "tail": "The local variable \"value\" is created within the contract \"MultiSigWalletWithTimeLock\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1895997437,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8477:13:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 293
+            },
+            {
+              "column": 26,
+              "line": 293
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"dataLength\"",
+          "tail": "The local variable \"dataLength\" is created within the contract \"MultiSigWalletWithTimeLock\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1896004837,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8500:18:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 294
+            },
+            {
+              "column": 25,
+              "line": 294
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"data\"",
+          "tail": "The local variable \"data\" is created within the contract \"MultiSigWalletWithTimeLock\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1896015637,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8528:17:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1497672345,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 0,
+      "coveredPaths": 0,
+      "logs": [
+        [],
+        [
+          {
+            "level": "info",
+            "msg": "skipped automated fuzz testing due to incompatible bytecode input"
+          }
+        ]
+      ],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1699092412,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "0:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "evm-byzantium-bytecode",
+    "sourceList": [
+      "0xd6fd63117f9671536c9f05ac76ace01ca576052169fa81d23b7fc66c6bdb7cdd"
+    ],
+    "sourceType": "raw-bytecode"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "description": {
+          "head": "Unused state variable \"UINT256_BINOP_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_BINOP_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1839280573,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "132:74:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "description": {
+          "head": "Unused state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 1839356274,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "277:77:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1803492970,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "0:23:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "evm-byzantium-bytecode",
+    "sourceList": [
+      "0x4f451e2a406d049d7f35899dffecc248f04b19c779363f36322ae0d0a75a8548"
+    ],
+    "sourceType": "raw-bytecode"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 291
+            },
+            {
+              "column": 27,
+              "line": 291
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"destination\"",
+          "tail": "The local variable \"destination\" is created within the contract \"TestAssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2041495728,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8448:19:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 292
+            },
+            {
+              "column": 21,
+              "line": 292
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"value\"",
+          "tail": "The local variable \"value\" is created within the contract \"TestAssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2041525128,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8477:13:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 293
+            },
+            {
+              "column": 26,
+              "line": 293
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"dataLength\"",
+          "tail": "The local variable \"dataLength\" is created within the contract \"TestAssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2041532928,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8500:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 8,
+              "line": 294
+            },
+            {
+              "column": 25,
+              "line": 294
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"data\"",
+          "tail": "The local variable \"data\" is created within the contract \"TestAssetProxyOwner\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 2041543928,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "8528:17:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1826732599,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+              "@0x/contracts-utils/contracts/src/LibBytes.sol",
+              "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 0,
+      "coveredPaths": 0,
+      "logs": [
+        [],
+        [
+          {
+            "level": "info",
+            "msg": "skipped automated fuzz testing due to incompatible bytecode input"
+          }
+        ]
+      ],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/AssetProxyOwner.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWallet.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/src/MultiSigWalletWithTimeLock.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/multisig/contracts/test/TestAssetProxyOwner.sol",
+      "@0x/contracts-utils/contracts/src/LibBytes.sol",
+      "@0x/contracts-utils/contracts/src/LibBytesRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]

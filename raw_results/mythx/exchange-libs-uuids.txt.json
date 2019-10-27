@@ -1,0 +1,2628 @@
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 25
+            },
+            {
+              "column": 67,
+              "line": 25
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"LEGACY_WALLET_MAGIC_VALUE\"",
+          "tail": "The state variable \"LEGACY_WALLET_MAGIC_VALUE\" is created within the contract \"IWallet\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 348477943,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/IWallet.sol"
+            ],
+            "sourceMap": "664:63:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 339127972,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/IWallet.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/IWallet.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 27
+            },
+            {
+              "column": 73,
+              "line": 27
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_EXCHANGE_DOMAIN_NAME\"",
+          "tail": "The state variable \"_EIP712_EXCHANGE_DOMAIN_NAME\" is created within the contract \"LibEIP712ExchangeDomain\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 732318436,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "746:69:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 30
+            },
+            {
+              "column": 70,
+              "line": 30
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_EXCHANGE_DOMAIN_VERSION\"",
+          "tail": "The state variable \"_EIP712_EXCHANGE_DOMAIN_VERSION\" is created within the contract \"LibEIP712ExchangeDomain\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 732437036,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "866:66:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 721341907,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 56,
+      "coveredPaths": 4,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 33
+            },
+            {
+              "column": 135,
+              "line": 33
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\"",
+          "tail": "The state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 654588231,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "897:131:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 31,
+              "line": 87
+            },
+            {
+              "column": 55,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"eip712DomainHash\"",
+          "tail": "The local variable \"eip712DomainHash\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 684251210,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2916:24:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 57,
+              "line": 87
+            },
+            {
+              "column": 75,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"hashStruct\"",
+          "tail": "The local variable \"hashStruct\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 684335910,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2942:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 641386096,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 110
+            },
+            {
+              "column": 18,
+              "line": 111
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ASSET_PROXY_DISPATCH_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ASSET_PROXY_DISPATCH_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848019845,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3181:81:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 146
+            },
+            {
+              "column": 18,
+              "line": 147
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"PAY_PROTOCOL_FEE_ERROR_SELECTOR\"",
+          "tail": "The state variable \"PAY_PROTOCOL_FEE_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848187446,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "4601:77:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 78
+            },
+            {
+              "column": 18,
+              "line": 79
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"SIGNATURE_VALIDATOR_NOT_APPROVED_ERROR_SELECTOR\"",
+          "tail": "The state variable \"SIGNATURE_VALIDATOR_NOT_APPROVED_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847898544,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1948:93:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 82
+            },
+            {
+              "column": 18,
+              "line": 83
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"EIP1271_SIGNATURE_ERROR_SELECTOR\"",
+          "tail": "The state variable \"EIP1271_SIGNATURE_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847912844,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2125:78:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 86
+            },
+            {
+              "column": 18,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"SIGNATURE_WALLET_ERROR_SELECTOR\"",
+          "tail": "The state variable \"SIGNATURE_WALLET_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847923544,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2288:77:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 90
+            },
+            {
+              "column": 18,
+              "line": 91
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ORDER_STATUS_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ORDER_STATUS_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847936244,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2432:73:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 94
+            },
+            {
+              "column": 18,
+              "line": 95
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"EXCHANGE_INVALID_CONTEXT_ERROR_SELECTOR\"",
+          "tail": "The state variable \"EXCHANGE_INVALID_CONTEXT_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847955644,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2591:85:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 98
+            },
+            {
+              "column": 18,
+              "line": 99
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"FILL_ERROR_SELECTOR\"",
+          "tail": "The state variable \"FILL_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847973844,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2736:65:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 102
+            },
+            {
+              "column": 18,
+              "line": 103
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ORDER_EPOCH_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ORDER_EPOCH_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847989144,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "2877:72:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 106
+            },
+            {
+              "column": 18,
+              "line": 107
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ASSET_PROXY_EXISTS_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ASSET_PROXY_EXISTS_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848004544,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3022:79:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 74
+            },
+            {
+              "column": 18,
+              "line": 75
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"SIGNATURE_ERROR_SELECTOR\"",
+          "tail": "The state variable \"SIGNATURE_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 847844243,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1791:70:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 114
+            },
+            {
+              "column": 18,
+              "line": 115
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ASSET_PROXY_TRANSFER_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ASSET_PROXY_TRANSFER_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848045045,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3342:81:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 118
+            },
+            {
+              "column": 18,
+              "line": 119
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"NEGATIVE_SPREAD_ERROR_SELECTOR\"",
+          "tail": "The state variable \"NEGATIVE_SPREAD_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848055445,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3495:76:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 122
+            },
+            {
+              "column": 18,
+              "line": 123
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"TRANSACTION_ERROR_SELECTOR\"",
+          "tail": "The state variable \"TRANSACTION_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848079945,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3638:72:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 126
+            },
+            {
+              "column": 18,
+              "line": 127
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"TRANSACTION_EXECUTION_ERROR_SELECTOR\"",
+          "tail": "The state variable \"TRANSACTION_EXECUTION_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848142346,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3786:82:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 130
+            },
+            {
+              "column": 18,
+              "line": 131
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"TRANSACTION_GAS_PRICE_ERROR_SELECTOR\"",
+          "tail": "The state variable \"TRANSACTION_GAS_PRICE_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848160146,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "3957:82:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 134
+            },
+            {
+              "column": 18,
+              "line": 135
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"TRANSACTION_INVALID_CONTEXT_ERROR_SELECTOR\"",
+          "tail": "The state variable \"TRANSACTION_INVALID_CONTEXT_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848167446,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "4122:88:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 138
+            },
+            {
+              "column": 18,
+              "line": 139
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"INCOMPLETE_FILL_ERROR_SELECTOR\"",
+          "tail": "The state variable \"INCOMPLETE_FILL_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848173846,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "4288:76:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 142
+            },
+            {
+              "column": 18,
+              "line": 143
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"BATCH_MATCH_ORDERS_ERROR_SELECTOR\"",
+          "tail": "The state variable \"BATCH_MATCH_ORDERS_ERROR_SELECTOR\" is created within the contract \"LibExchangeRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 848180646,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "4428:79:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 764438560,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 25
+            },
+            {
+              "column": 18,
+              "line": 26
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"STANDARD_ERROR_SELECTOR\"",
+          "tail": "The state variable \"STANDARD_ERROR_SELECTOR\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 687397816,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "677:69:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 21,
+              "line": 50
+            },
+            {
+              "column": 43,
+              "line": 50
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"errorData\"",
+          "tail": "The local variable \"errorData\" is created within the contract \"LibRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 688119220,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "1528:22:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 640713584,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+            ],
+            "sourceMap": "580:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibExchangeRichErrors.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1376586766,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibFillResults.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibFillResults.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 1089830092,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 887763043,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "0:23:3",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 7
+            },
+            {
+              "column": 18,
+              "line": 8
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"UINT256_BINOP_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_BINOP_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 783049312,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "132:74:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 11
+            },
+            {
+              "column": 18,
+              "line": 12
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\"",
+          "tail": "The state variable \"UINT256_DOWNCAST_ERROR_SELECTOR\" is created within the contract \"LibSafeMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 783143412,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "277:77:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 755184365,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "0:23:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 7
+            },
+            {
+              "column": 21,
+              "line": 8
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"DIVISION_BY_ZERO_ERROR\"",
+          "tail": "The state variable \"DIVISION_BY_ZERO_ERROR\" is created within the contract \"LibMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 517322450,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol"
+            ],
+            "sourceMap": "109:70:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 11
+            },
+            {
+              "column": 18,
+              "line": 12
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"ROUNDING_ERROR_SELECTOR\"",
+          "tail": "The state variable \"ROUNDING_ERROR_SELECTOR\" is created within the contract \"LibMathRichErrors\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 517397851,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol"
+            ],
+            "sourceMap": "253:69:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 1
+            },
+            {
+              "column": 23,
+              "line": 1
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 508349480,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol"
+            ],
+            "sourceMap": "0:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 47
+            },
+            {
+              "column": 74,
+              "line": 48
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_ORDER_SCHEMA_HASH\"",
+          "tail": "The state variable \"_EIP712_ORDER_SCHEMA_HASH\" is created within the contract \"LibOrder\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 579873962,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "1360:128:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 570597892,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 33
+            },
+            {
+              "column": 135,
+              "line": 33
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\"",
+          "tail": "The state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 669446900,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "897:131:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 31,
+              "line": 87
+            },
+            {
+              "column": 55,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"eip712DomainHash\"",
+          "tail": "The local variable \"eip712DomainHash\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 670386405,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2916:24:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 57,
+              "line": 87
+            },
+            {
+              "column": 75,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"hashStruct\"",
+          "tail": "The local variable \"hashStruct\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 670405105,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2942:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 655436233,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 39
+            },
+            {
+              "column": 137,
+              "line": 39
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_ZEROEX_TRANSACTION_SCHEMA_HASH\"",
+          "tail": "The state variable \"_EIP712_ZEROEX_TRANSACTION_SCHEMA_HASH\" is created within the contract \"LibZeroExTransaction\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 736952443,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "1093:133:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 727949975,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 33
+            },
+            {
+              "column": 135,
+              "line": 33
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\"",
+          "tail": "The state variable \"_EIP712_DOMAIN_SEPARATOR_SCHEMA_HASH\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 546986804,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "897:131:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 31,
+              "line": 87
+            },
+            {
+              "column": 55,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"eip712DomainHash\"",
+          "tail": "The local variable \"eip712DomainHash\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 548449211,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2916:24:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 57,
+              "line": 87
+            },
+            {
+              "column": 75,
+              "line": 87
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused local variable \"hashStruct\"",
+          "tail": "The local variable \"hashStruct\" is created within the contract \"LibEIP712\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 548493112,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "2942:18:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 483897804,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 9,
+      "coveredPaths": 1,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 27
+            },
+            {
+              "column": 73,
+              "line": 27
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_EXCHANGE_DOMAIN_NAME\"",
+          "tail": "The state variable \"_EIP712_EXCHANGE_DOMAIN_NAME\" is created within the contract \"LibEIP712ExchangeDomain\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 366946169,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "746:69:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 4,
+              "line": 30
+            },
+            {
+              "column": 70,
+              "line": 30
+            }
+          ]
+        ],
+        "description": {
+          "head": "Unused state variable \"_EIP712_EXCHANGE_DOMAIN_VERSION\"",
+          "tail": "The state variable \"_EIP712_EXCHANGE_DOMAIN_VERSION\" is created within the contract \"LibEIP712ExchangeDomain\" but does not seem to be used anywhere. "
+        },
+        "extra": {
+          "discoveryTime": 367754768,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "866:66:0",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Medium",
+        "swcID": "SWC-131",
+        "swcTitle": "Presence of unused variables"
+      },
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 352019991,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibEIP712ExchangeDomain.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 64,
+      "coveredPaths": 4,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibEIP712ExchangeDomain.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibEIP712ExchangeDomain.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 696633415,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibFillResults.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibFillResults.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:4",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 2223,
+      "coveredPaths": 333,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibFillResults.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibFillResults.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 702580681,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibMath.sol",
+              "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+              "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+            ],
+            "sourceMap": "580:23:2",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 746,
+      "coveredPaths": 54,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMath.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibMathRichErrors.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibMath.sol",
+      "@0x/contracts-utils/contracts/src/LibRichErrors.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMath.sol",
+      "@0x/contracts-utils/contracts/src/LibSafeMathRichErrors.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 370725858,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibOrder.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 716,
+      "coveredPaths": 59,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibOrder.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibOrder.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
+[
+  {
+    "issues": [
+      {
+        "decodedLocations": [
+          [
+            {
+              "column": 0,
+              "line": 19
+            },
+            {
+              "column": 23,
+              "line": 19
+            }
+          ]
+        ],
+        "description": {
+          "head": "A floating pragma is set.",
+          "tail": "It is recommended to make a conscious choice on what version of Solidity is used for compilation. Currently multiple versions \"^0.5.9\" are allowed."
+        },
+        "extra": {
+          "discoveryTime": 648122951,
+          "toolName": "maru"
+        },
+        "locations": [
+          {
+            "sourceFormat": "text",
+            "sourceList": [
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+              "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibZeroExTransaction.sol",
+              "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+            ],
+            "sourceMap": "580:23:1",
+            "sourceType": "solidity-file"
+          }
+        ],
+        "severity": "Low",
+        "swcID": "SWC-103",
+        "swcTitle": "Floating Pragma"
+      }
+    ],
+    "meta": {
+      "coveredInstructions": 512,
+      "coveredPaths": 23,
+      "logs": [],
+      "selectedCompiler": "Unknown",
+      "toolName": "maru"
+    },
+    "sourceFormat": "text",
+    "sourceList": [
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/src/LibZeroExTransaction.sol",
+      "/home/pierce/work/0x-v3-audit-2019-09/code/contracts/exchange-libs/contracts/test/TestLibZeroExTransaction.sol",
+      "@0x/contracts-utils/contracts/src/LibEIP712.sol"
+    ],
+    "sourceType": "solidity-file"
+  }
+]
