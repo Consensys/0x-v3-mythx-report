@@ -167,7 +167,7 @@ With MythX Pro, each smart contract is compiled individually and checked for a r
 
 ### Staking
 
-**staking/contracts/src/libs/LibProxy.sol**
+**staking/contracts/src/libs/Lib\.sol**
 
 | Severity | Line | Description | SWC |
 | --- | --- | --- | --- |
@@ -178,7 +178,7 @@ With MythX Pro, each smart contract is compiled individually and checked for a r
 
 | Type | Line | Description | SWC |
 | --- | --- | --- | --- |
-| ``Medium`` | [70:8](https://github.com/0xProject/0x-monorepo/blob/90193c81978a486762f37ebde3983182ab17f6f9/contracts/staking/contracts/src/sys/MixinScheduler.sol#L70) | **A control flow decision is made based on a predictable variable.** The `block.timestamp` environment variable is used in to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don&#39;t use any of those environment variables for random number generation or to make critical control flow decisions. | [SWC-116](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-116) |
+| ``Medium`` | [70:8](https://github.com/0xProject/0x-monorepo/blob/90193c81978a486762f37ebde3983182ab17f6f9/contracts/staking/contracts/src/sys/MixinScheduler.sol#L70) | **A control flow decision is made based on a predictable \.** The `block.timestamp` environment variable is used in to determine a control flow decision. Note that the values of variables like coinbase, gaslimit, block number and timestamp are predictable and can be manipulated by a malicious miner. Also keep in mind that attackers know hashes of earlier blocks. Don&#39;t use any of those environment variables for random number generation or to make critical control flow decisions.<br><br>**Review**:  Miners could indeed set the timestamp arbitrarily if there are large enough incentives to do so, it should be assessed whether this risk is acceptable. | [SWC-116](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-116) |
 
 ### Utils
 
