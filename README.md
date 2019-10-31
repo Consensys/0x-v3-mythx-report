@@ -18,9 +18,9 @@
 
 The [0x v3 codebase](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) was tested using the [MythX](https://mythx.io) smart contract security service ahead of the release of 0x version 3. The scope of the project, which was performed alongside a manual security audit by [ConsenSys Diligence](https://diligence.consensys.net), was to detect generic security issues and best practice violations in the source code. MythX Enterprise engagements also include a brief manual review by an auditor on the MythX team to eliminate spurious results. The engagement included the following phases:
 
-- Check each each smart contract individually  for [26 vulnerability classes](https://mythx.io/swc-coverage) using the MythX Pro service;
-- Execute a 6-hours offline fuzzing campaign on a fully functional test environment;
-- Verify selected custom security properties of the system using greybox fuzzing and symbolic execution.
+- Check each each smart contract individually for [26 vulnerability classes](https://mythx.io/swc-coverage) using the MythX Pro service;
+- Execute an offline fuzzing campaign on a fully functional test environment;
+- Check selected custom security properties of the system using symbolic execution and greybox fuzzing.
 
 The CI setup and custom modules developed in this engagement can be re-used to continuosly verify the security of the 0x code. Analysis was performed on [tree 90193c8](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) in the 3.0 branch of the 0x monorepo.
 
@@ -41,7 +41,7 @@ In addition the generic scan, we [checked correctness of the code](#verification
 
 ### Findings Overview
 
-The following table lists the bug classes that were tested for. A checkmark in the "pass" column indicates that no issues were detected in the category. An "X" indicates that one or more issues in the category were found. The "status" column documents the current status of the category:
+With MythX Pro, each smart contract is compiled individually and checked for a range of security issues using static and dynamic analysis. The following table lists the bug classes that were tested for. A checkmark in the "pass" column indicates that no issues were detected in the category. An "X" indicates that one or more issues in the category were found. The "status" column documents the current status of the category:
 
 - "T.b.d.": Review and fixing / acceptance of the issue(s) is still pending.
 - "Accepted": It has been determined that the security risk (if any) is acceptable.
