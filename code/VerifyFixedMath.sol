@@ -10,7 +10,6 @@ contract VerifyFixedMath {
     // Verify that _add, _mil and _div don't overflow
 
     int256 private constant MIN_FIXED_VAL = int256(0x8000000000000000000000000000000000000000000000000000000000000000);
-
  
     /// @dev Returns the multiplication two numbers, reverting on overflow.
     function _mul(int256 a, int256 b) private pure returns (int256 c) {
