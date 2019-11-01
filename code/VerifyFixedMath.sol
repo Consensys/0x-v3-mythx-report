@@ -122,6 +122,6 @@ contract VerifyFixedMath {
         require(a < 0);
         require(b < 0);
 
-        assert(_div(a, b) > 0);
+        assert(_div(a, b) >= 0);
     }
 }
