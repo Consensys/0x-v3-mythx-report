@@ -18,7 +18,7 @@
 
 The [0x v3 codebase](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) was tested using the [MythX](https://mythx.io) smart contract security service ahead of the release of 0x version 3. The scope of the project, which was performed alongside a manual security audit by [ConsenSys Diligence](https://diligence.consensys.net), was to detect generic security issues and best practice violations in the code. MythX Enterprise engagements also include a brief manual review by an auditor on the MythX team to eliminate spurious results. The engagement consisted of the following phases:
 
-- Check each each smart contract individually for[generic bugs](https://mythx.io/swc-coverage) using the MythX Pro service;
+- Check each each smart contract individually for [generic bugs](https://mythx.io/swc-coverage) using the MythX Pro service;
 - Execute greybox fuzzing campaigns on a live test environment;
 - Check selected custom properties of the system using symbolic execution and fuzzing.
 
@@ -32,7 +32,6 @@ In addition the generic scan, we [checked correctness of the code](#verification
 
 ### Recommendations
 
-- Review the MythX findings listed in this report. Issue may be accepted (non-fix) if the security risk is trivial or if the issue is irrelevant considering context and/or business logic of the system. Issues that pose a risk should be fixed before deployment.
 - Continuosly verify the code using MythX, including the custom verifiers built in this project, to prevent regressions and newly introduced security issues.
 
 ## MythX Pro Vulnerability Scan
@@ -41,41 +40,37 @@ In addition the generic scan, we [checked correctness of the code](#verification
 
 ### Findings Overview
 
-With MythX Pro, each smart contract is compiled individually and checked for a range of security issues using static and dynamic analysis. The following table lists the bug classes that were tested for. A checkmark in the "pass" column indicates that no issues were detected in the category. An "X" indicates that one or more issues in the category were found. The "status" column documents the current status of the category:
-
-- "T.b.d.": Review and fixing / acceptance of the issue(s) is still pending.
-- "Accepted": It has been determined that the security risk (if any) is acceptable.
-- "Fixed": The issue has been remediated.
+With MythX Pro, each smart contract is compiled individually and checked for a range of security issues using static and dynamic analysis. The following table lists the bug classes that were tested for. A checkmark in the "pass" column indicates that no issues were detected in the category. An "X" indicates that one or more issues in the category were found.
 
 
-| SWC ID  | Bug class                                | Pass | Status |
-|---------|------------------------------------------|------|--------|
-| [SWC-100](https://swcregistry.io/docs/SWC-100) | Function Default Visibility              |  &#x2714;  |  N/A  |
-| [SWC-101](https://swcregistry.io/docs/SWC-101) | Integer Overflow and Underflow           |  &#x2716;| T.b.d. | 
-| [SWC-102](https://swcregistry.io/docs/SWC-102) | Outdated Compiler Version                |  &#x2714;  |  N/A  |
-| [SWC-103](https://swcregistry.io/docs/SWC-103) | Floating Pragma                          |  &#x2714;  |  N/A  |
-| [SWC-104](https://swcregistry.io/docs/SWC-104) | Unchecked Call Return Value              |  &#x2714;  |  N/A  |
-| [SWC-105](https://swcregistry.io/docs/SWC-105) | Unprotected Ether Withdrawal             |  &#x2716; | Accepted (not exploitable) |
-| [SWC-106](https://swcregistry.io/docs/SWC-106) | Unprotected SELFDESTRUCT Instruction     |  &#x2714; |  N/A  |
-| [SWC-107](https://swcregistry.io/docs/SWC-107) | Reentrancy                               |  &#x2714; |  N/A  |
-| [SWC-108](https://swcregistry.io/docs/SWC-108) | State Variable Default Visibility        |  &#x2714; |  N/A  |
-| [SWC-109](https://swcregistry.io/docs/SWC-109) | Uninitialized Storage Pointer            |  &#x2714; |  N/A  |
-| [SWC-110](https://swcregistry.io/docs/SWC-110) | Assert Violation                         |  &#x2716;| Accepted (not exploitable) |
-| [SWC-111](https://swcregistry.io/docs/SWC-111) | Use of Deprecated Solidity Functions     | &#x2714; |  N/A  |
-| [SWC-112](https://swcregistry.io/docs/SWC-112) | Delegatecall to Untrusted Callee         | &#x2714;  |  N/A  |
-| [SWC-113](https://swcregistry.io/docs/SWC-113) | DoS with Failed Call                     | &#x2714; |  N/A  |
-| [SWC-114](https://swcregistry.io/docs/SWC-114) | Transaction Order Dependence             | &#x2714; |  N/A  |
-| [SWC-115](https://swcregistry.io/docs/SWC-115) | Authorization through tx.origin          | &#x2716; | T.b.d. | 
-| [SWC-116](https://swcregistry.io/docs/SWC-116) | Timestamp Dependence                     | &#x2716; | T.b.d. | 
-| [SWC-118](https://swcregistry.io/docs/SWC-118) | Incorrect Constructor Name               | &#x2714;  | N/A |
-| [SWC-119](https://swcregistry.io/docs/SWC-119)| Shadowing State Variables                 | &#x2716;  | T.b.d. | 
-| [SWC-120](https://swcregistry.io/docs/SWC-120) | Weak Sources of Randomness               | &#x2714;  | N/A  |
-| [SWC-123](https://swcregistry.io/docs/SWC-123) | Requirement Violation                    | &#x2714;  | N/A  |
-| [SWC-124](https://swcregistry.io/docs/SWC-124) | Write to Arbitrary Storage Location      | &#x2714;  | N/A  |
-| [SWC-127](https://swcregistry.io/docs/SWC-127) | Arbitrary Jump                           | &#x2714;  | N/A  |
-| [SWC-128](https://swcregistry.io/docs/SWC-128) | Gas Exhaustion                           | &#x2714;  | N/A  |
-| [SWC-129](https://swcregistry.io/docs/SWC-129) | Typographical Error                      | &#x2714;  | N/A  |
-| [SWC-130](https://swcregistry.io/docs/SWC-130) | Right-To-Left-Override control character | &#x2714;  | N/A  |
+| SWC ID  | Bug class                                | Pass |
+|---------|------------------------------------------|------|
+| [SWC-100](https://swcregistry.io/docs/SWC-100) | Function Default Visibility              |  &#x2714;  |
+| [SWC-101](https://swcregistry.io/docs/SWC-101) | Integer Overflow and Underflow           |  &#x2716;|
+| [SWC-102](https://swcregistry.io/docs/SWC-102) | Outdated Compiler Version                |  &#x2714;  |
+| [SWC-103](https://swcregistry.io/docs/SWC-103) | Floating Pragma                          |  &#x2714;  |
+| [SWC-104](https://swcregistry.io/docs/SWC-104) | Unchecked Call Return Value              |  &#x2714;  |
+| [SWC-105](https://swcregistry.io/docs/SWC-105) | Unprotected Ether Withdrawal             |  &#x2716; |
+| [SWC-106](https://swcregistry.io/docs/SWC-106) | Unprotected SELFDESTRUCT Instruction     |  &#x2714; |
+| [SWC-107](https://swcregistry.io/docs/SWC-107) | Reentrancy                               |  &#x2714; |
+| [SWC-108](https://swcregistry.io/docs/SWC-108) | State Variable Default Visibility        |  &#x2714; |
+| [SWC-109](https://swcregistry.io/docs/SWC-109) | Uninitialized Storage Pointer            |  &#x2714; |
+| [SWC-110](https://swcregistry.io/docs/SWC-110) | Assert Violation                         |  &#x2716;|
+| [SWC-111](https://swcregistry.io/docs/SWC-111) | Use of Deprecated Solidity Functions     | &#x2714; |
+| [SWC-112](https://swcregistry.io/docs/SWC-112) | Delegatecall to Untrusted Callee         | &#x2714;  |
+| [SWC-113](https://swcregistry.io/docs/SWC-113) | DoS with Failed Call                     | &#x2714; |
+| [SWC-114](https://swcregistry.io/docs/SWC-114) | Transaction Order Dependence             | &#x2714; |
+| [SWC-115](https://swcregistry.io/docs/SWC-115) | Authorization through tx.origin          | &#x2716; |
+| [SWC-116](https://swcregistry.io/docs/SWC-116) | Timestamp Dependence                     | &#x2716; |
+| [SWC-118](https://swcregistry.io/docs/SWC-118) | Incorrect Constructor Name               | &#x2714;  |
+| [SWC-119](https://swcregistry.io/docs/SWC-119)| Shadowing State Variables                 | &#x2716;  |
+| [SWC-120](https://swcregistry.io/docs/SWC-120) | Weak Sources of Randomness               | &#x2714;  |
+| [SWC-123](https://swcregistry.io/docs/SWC-123) | Requirement Violation                    | &#x2714;  |
+| [SWC-124](https://swcregistry.io/docs/SWC-124) | Write to Arbitrary Storage Location      | &#x2714;  |
+| [SWC-127](https://swcregistry.io/docs/SWC-127) | Arbitrary Jump                           | &#x2714;  |
+| [SWC-128](https://swcregistry.io/docs/SWC-128) | Gas Exhaustion                           | &#x2714;  |
+| [SWC-129](https://swcregistry.io/docs/SWC-129) | Typographical Error                      | &#x2714;  |
+| [SWC-130](https://swcregistry.io/docs/SWC-130) | Right-To-Left-Override control character | &#x2714;  |
 
 ### AssetProxy
 
