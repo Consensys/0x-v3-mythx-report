@@ -16,17 +16,17 @@
 
 ## Executive Summary
 
-The [0x v3 codebase](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) was tested using the [MythX](https://mythx.io) smart contract security service ahead of the release of 0x version 3. The scope of the project, which was performed alongside a manual security audit by [ConsenSys Diligence](https://diligence.consensys.net), was to detect generic security issues and best practice violations in the source code. MythX Enterprise engagements also include a brief manual review by an auditor on the MythX team to eliminate spurious results. The engagement included the following phases:
+The [0x v3 codebase](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) was tested using the [MythX](https://mythx.io) smart contract security service ahead of the release of 0x version 3. The scope of the project, which was performed alongside a manual security audit by [ConsenSys Diligence](https://diligence.consensys.net), was to detect generic security issues and best practice violations in the code. MythX Enterprise engagements also include a brief manual review by an auditor on the MythX team to eliminate spurious results. The engagement consisted of the following phases:
 
-- Check each each smart contract individually for [26 vulnerability classes](https://mythx.io/swc-coverage) using the MythX Pro service;
-- Execute an offline fuzzing campaign on a fully functional test environment;
-- Check selected custom security properties of the system using symbolic execution and greybox fuzzing.
+- Check each each smart contract individually for[generic bugs](https://mythx.io/swc-coverage) using the MythX Pro service;
+- Execute greybox fuzzing campaigns on a live test environment;
+- Check selected custom properties of the system using symbolic execution and fuzzing.
 
-The CI setup and custom modules developed in this engagement can be re-used to continuosly verify the security of the 0x code. Analysis was performed on [tree 90193c8](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) in the 3.0 branch of the 0x monorepo.
+The CI setup and custom verifiers developed in this engagement can be re-used to continuosly check the security of the 0x code. Analysis was performed on [tree 90193c8](https://github.com/0xProject/0x-monorepo/tree/90193c81978a486762f37ebde3983182ab17f6f9/) in the 3.0 branch of the 0x monorepo.
 
 ### Results
 
-MythX Pro detected a total of **37** potential issues. Most findings refered to simple best practice violations such as shadowing of variable names, ignoring failures of external calls. However, a few potentially problematic issues such as integer overflows we discovered as well.
+MythX Pro detected a total of **37** potential issues. Most findings reflect suspected best practice violations such as variable names shadowing, ignoring failures of external calls and using `tx.origin` to determine the control flow. Most of the issues turned out to be expected behavior. However, a few potentially problematic issues such as integer overflows were discovered as well.
 
 In addition the generic scan, we [checked correctness of the code](#verification-of-custom-properties) with respect to selected properties. While the 0x system passed most functional checks successfully, the proprietary fixed point signed integer library was shown to be [affected by integer arithmetic issues](#violations-found).
 
