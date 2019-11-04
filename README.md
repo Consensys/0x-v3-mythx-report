@@ -30,6 +30,11 @@ MythX Pro detected a total of **37** potential issues. Most findings reflect sus
 
 In addition the generic scan, we [checked correctness of the code](#verification-of-custom-properties) with respect to selected properties. While the 0x system passed most functional checks successfully, the proprietary fixed point signed integer library was shown to be [affected by integer arithmetic issues](#violations-found).
 
+For additional details on the audit results and follow-up measures please refer to the audit reports published by ConsenSys Diligence:
+
+- [0x v3 Exchange Audit](https://diligence.consensys.net/audits/2019/09/0x-v3-exchange/)
+- [0x v3 Staking Audit](https://diligence.consensys.net/audits/2019/10/0x-v3-staking/)
+
 ### Recommendations
 
 - Continuosly verify the code using MythX, including the custom verifiers built in this project, to prevent regressions and newly introduced security issues.
